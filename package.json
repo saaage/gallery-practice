@@ -1,0 +1,23 @@
+{
+  "name": "gallery-practice",
+  "version": "1.0.0",
+  "description": "A photo gallery application that allows users to view, add, and comment on photos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sage911/gallery-practice.git"
+  },
+  "author": "Stefan Age",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sage911/gallery-practice/issues"
+  },
+  "homepage": "https://github.com/Sage911/gallery-practice#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "webpack": "^2.2.1"
+  }
+}
