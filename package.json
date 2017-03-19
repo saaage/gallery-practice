@@ -19,6 +19,8 @@
   "homepage": "https://github.com/Sage911/gallery-practice#readme",
   "devDependencies": {
     "jasmine": "^2.5.3",
+    "jquery": "^3.2.0",
+    "mustache": "^2.3.0",
     "webpack": "^2.2.1"
   }
 }

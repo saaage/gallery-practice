@@ -1,0 +1,11 @@
+.navbar__list--items {
+  display: inline-block;
+}
+
+.navbar__list--items a{
+  text-decoration: none;
+}
+
+.navbar__list--search {
+  display: inline-block;
+}
