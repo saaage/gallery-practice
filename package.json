@@ -4,7 +4,8 @@
   "description": "A photo gallery application that allows users to view, add, and comment on photos.",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "start": "webpack --watch ./lib/index.js bundle.js"
   },
   "repository": {
     "type": "git",
