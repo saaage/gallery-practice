@@ -1,11 +1,111 @@
 .navbar__list--items {
   display: inline-block;
+  width: 90px;
+  margin-right: 10px;
 }
 
 .navbar__list--items a{
   text-decoration: none;
 }
 
+.navbar__listright {
+  display: inline;
+  float: right;
+}
+
 .navbar__list--search {
   display: inline-block;
+  margin-right: 100px;
+}
+
+.search__box{
+  width: 275px;
+}
+
+.search__label {}
+
+.userinfo__name,.userinfo__webpage,.userinfo__address {
+  text-align: center;
+  display: block;
+}
+
+.userinfo__about {
+  display: block;
+  height: 38px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userinfo__statsbar--listitems {
+  display: inline-block;
+  width: 140px;
+}
+
+.userinfo__statsbar--list {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+.showcase__button--photoswipe {
+  background-color: #4CAF50;
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 10px;
+   float: right;
+   margin-right: 90px;
+}
+
+.header__bkg {
+  height: 200px;
+  width: 100%;
+}
+
+
+.slide {
+  height: 650px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+}
+/*This section is the styling for slides*/
+.slide__photo {
+  width: 75%;
+  height: 100%;
+}
+
+.slide__chat {
+  display: inline;
+  float: right;
+  width: 24%;
+  height: 100%;
+  position: relative;
+}
+
+.slide__chat--text {
+  padding-left: 10px;
+  margin-right: 15px;
+}
+
+.slide__chat--addcomment {
+  vertical-align: bottom;
+}
+
+.addcomment__form {
+  margin-left: 10px;
+}
+
+.addcomment__form--field {
+  width: 90%;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+  position: absolute;
+  bottom: 0px;
 }

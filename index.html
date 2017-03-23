@@ -26,12 +26,22 @@
         <li class="navbar__list--items"><a href="#">Discover</a></li>
         <li class="navbar__list--items"><a href="#">Quests</a></li>
         <li class="navbar__list--items"><a href="#">Directory</a></li>
-        <form  class="navbar__list--search"action="index.html" method="post"></form>
-        <li class="navbar__list--items"><a href="#">Upgrade</a></li>
-        <li class="navbar__list--items"><a href="#">Username</a></li>
-        <li class="navbar__list--items"><a href="#">Alerts</a></li>
+        <form  class="navbar__list--search"action="index.html" method="post">
+          <span class="search__label">Search</span>
+          <input class="search__box" type="search" name="" value="">
+        </form>
+        <div class="navbar__listright">
+          <li class="navbar__list--items navbar__list--itemsright"><a href="#">Upgrade</a></li>
+          <li class="navbar__list--items navbar__list--itemsright"><a href="#">Username</a></li>
+          <li class="navbar__list--items navbar__list--itemsright"><a href="#">Alerts</a></li>
+        </div>
+
       </ul>
     </nav>
+
+    <header>
+      <img  class="header__bkg" src="images/bkg.jpg" alt="">
+    </header>
 
     <section class="user">
 
@@ -39,17 +49,25 @@
         <h2 class="userinfo__name">Joachim Berguaer</h2>
         <span class="userinfo__webpage">www.bergauer.com</span>
         <span class="userinfo__address">2014 1.Plats Staatpreis Traumseher Kategorie Werbung</span>
-      </div>
-
-
-      <div class="userinfo__profilenav">
-        <button class="userinfo__profilenav--photos"><a href="#">PHOTOS</a></button>
-        <button class="userinfo__profilenav--albums"><a href="#">ALBUMS</a> </button>
+        <p class="userinfo__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a aliquet nibh, quis lobortis turpis. Quisque quis turpis suscipit velit dapibus ullamcorper eget sit amet nisl.</p>
+        <br>
+        <div class="userinfo__statsbar">
+          <ul class="userinfo__statsbar--list">
+            <li class="userinfo__statsbar--listitems">6 Affection</li>
+            <li class="userinfo__statsbar--listitems">100 Photo Views</li>
+            <li class="userinfo__statsbar--listitems">5.46m Followers</li>
+            <li class="userinfo__statsbar--listitems">296 Following</li>
+            <li class="userinfo__statsbar--listitems">Toronto</li>
+          </ul>
+        </div>
       </div>
 
     </section>
 
     <section class="showcase">
+
+      <button class="button showcase__button--photoswipe">Slideshow</button>
+      
       <!-- Root element of PhotoSwipe. Must have class pswp. -->
       <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
