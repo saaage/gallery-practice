@@ -49,17 +49,33 @@
   text-align: center;
 }
 
+/*showcase styles*/
+
 .showcase__button--photoswipe {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.showcase__addnewphoto a{
+  text-decoration: none;
+  color: white;
+}
+
+.showcase__addnewphoto {
   background-color: #4CAF50;
-   border: none;
-   color: white;
-   padding: 10px 20px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 10px;
-   float: right;
-   margin-right: 90px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 10px;
 }
 
 .header__bkg {
@@ -75,6 +91,26 @@
   margin-right: auto;
   border: 1px solid;
 }
+
+/*Section for changing Add File styles*/
+.upload__form {
+  /*border: 1px solid;*/
+  width: 50%;
+  margin-left: 6px;
+}
+
+.upload__form--cancel a {
+  text-decoration: none;
+}
+
+.upload__form--titlefield {
+  width: 200px;
+}
+
+.upload__form--urlfield {
+  width: 270px;
+}
+
 /*This section is the styling for slides*/
 .slide__photo {
   width: 75%;
