@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jasmine",
-    "start": "webpack --watch ./lib/index.js bundle.js"
+    "start": "webpack --watch ./lib/build.js bundle.js"
   },
   "repository": {
     "type": "git",
