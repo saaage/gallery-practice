@@ -1,7 +1,7 @@
-let indexController = require('../lib/index.js');
+let indexController = require('../lib/photogallery.js');
 
 // Add photos suite
-describe("Add photos page", ()=> {
+describe("Photo Gallery should", ()=> {
 
   // Mock document
   let document;
@@ -19,7 +19,7 @@ describe("Add photos page", ()=> {
   });
 
   // specs for Add Photos
-  it("should prevent page from reloading");
+  it("prevent page from reloading");
 
   it("check for form validation errors");
 
