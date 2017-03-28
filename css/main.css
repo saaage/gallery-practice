@@ -145,3 +145,7 @@
   position: absolute;
   bottom: 0px;
 }
+
+.upload--hidden {
+  display: none;
+}

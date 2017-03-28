@@ -66,7 +66,41 @@
 
     <section class="showcase">
 
-      <button type="button" class="showcase__addnewphoto" name="button"><a href="./views/addphoto.html">New Photo</a></button>
+      <button type="button" class="showcase__addnewphoto" name="button"><a href="#">New Photo</a></button>
+
+      <br>
+
+      <div class="upload upload--hidden">
+        <form class="upload__form" name="uploadform" method="post">
+
+          <label for="title">Title:</label><br>
+          <input class="upload__form--field upload__form--titlefield" type="text" maxlength="30" name="title" required>
+          <!-- Title field is required and should accept a maximum of 30 characters -->
+
+          <br>
+
+          <label for="urlfile">URL:</label><br>
+          <input class="upload__form--urlfield" name="url" type="URL" value="http://" required>
+          <!-- Label field is required and should check if input is in url format -->
+
+          <br><br>
+
+          <label class="upload__form--description" for="description">Description: </label>
+
+          <br>
+
+          <textarea class="upload__form--descriptionfield" name="description" rows="8" cols="80"></textarea>
+          <!-- Description field is optional and will accept a maximum of 140 characters -->
+
+          <br><br>
+
+          <button class="upload__form--submit" type="button" name="button">Add</button>
+
+        </form>
+      </div>
+
+      <br><br>
+
       <button class="button showcase__photoswipe--initiator">Slideshow</button>
 
       <!-- Root element of PhotoSwipe. Must have class pswp. -->
