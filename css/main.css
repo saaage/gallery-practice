@@ -62,34 +62,13 @@
   font-size: 10px;
 }
 
-.showcase__addnewphoto a{
-  text-decoration: none;
-  color: white;
-}
-
 .showcase__addnewphoto {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
   display: block;
-  font-size: 10px;
 }
 
 .header__bkg {
   height: 200px;
   width: 100%;
-}
-
-
-.slide {
-  height: 650px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid;
 }
 
 /*Section for changing Add File styles*/
@@ -112,6 +91,16 @@
 }
 
 /*This section is the styling for slides*/
+
+.slide {
+  margin-top: 80px;
+  height: 75%;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
 .slide__photo {
   width: 75%;
   height: 100%;
