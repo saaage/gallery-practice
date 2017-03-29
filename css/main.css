@@ -49,7 +49,21 @@
   text-align: center;
 }
 
+/*body styles*/
+.body {
+  border: 5px solid;
+}
+
 /*showcase styles*/
+
+.showcase {
+  border: 1px solid;
+  position: static;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  /*transform: translate(0%, 0%);*/
+}
 
 .showcase__button--photoswipe {
   background-color: blue;
@@ -72,6 +86,18 @@
 }
 
 /*Section for changing Add File styles*/
+
+.newphoto {
+  height: 450px;
+  width: 450px;
+  /*border: 1px solid;*/
+  position: fixed;
+}
+
+.upload--hidden {
+  display: none;
+}
+
 .upload__form {
   /*border: 1px solid;*/
   width: 50%;
@@ -90,6 +116,10 @@
   width: 270px;
 }
 
+
+.upload__form--descriptionfield {
+  width: 150%;
+}
 /*This section is the styling for slides*/
 
 .slide {
@@ -106,35 +136,4 @@
   height: 100%;
 }
 
-.slide__chat {
-  display: inline;
-  float: right;
-  width: 24%;
-  height: 100%;
-  position: relative;
-}
-
-.slide__chat--text {
-  padding-left: 10px;
-  margin-right: 15px;
-}
-
-.slide__chat--addcomment {
-  vertical-align: bottom;
-}
-
-.addcomment__form {
-  margin-left: 10px;
-}
-
-.addcomment__form--field {
-  width: 90%;
-  padding-bottom: 3px;
-  margin-bottom: 10px;
-  position: absolute;
-  bottom: 0px;
-}
-
-.upload--hidden {
-  display: none;
-}
+/*comments styling*/
