@@ -24,6 +24,11 @@
 
 .search__label {}
 
+.header__bkg {
+  height: 200px;
+  width: 100%;
+}
+
 .userinfo__name,.userinfo__webpage,.userinfo__address {
   text-align: center;
   display: block;
@@ -50,49 +55,33 @@
 }
 
 /*body styles*/
-.body {
-  border: 5px solid;
+
+/* PhotoSwipe div */
+.photoswipe {
+  border: 1px solid;
+  width: 1100px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0px;
+  position: absolute;
+  margin-bottom: 100px;
 }
 
 /*showcase styles*/
 
-.showcase {
-  border: 1px solid;
-  position: static;
-  width: 50%;
+.showcase__newphoto {
+  width: 350px;
+  display: inline-block;
+}
+
+.showcase__photoswipe--initiator {
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
-  /*transform: translate(0%, 0%);*/
-}
-
-.showcase__button--photoswipe {
-  background-color: blue;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 10px;
-}
-
-.showcase__addnewphoto {
   display: block;
 }
 
-.header__bkg {
-  height: 200px;
-  width: 100%;
-}
-
 /*Section for changing Add File styles*/
-
-.newphoto {
-  height: 450px;
-  width: 450px;
-  /*border: 1px solid;*/
-  position: fixed;
-}
 
 .upload--hidden {
   display: none;
@@ -104,10 +93,6 @@
   margin-left: 6px;
 }
 
-.upload__form--home a {
-  text-decoration: none;
-}
-
 .upload__form--titlefield {
   width: 200px;
 }
@@ -116,10 +101,10 @@
   width: 270px;
 }
 
-
 .upload__form--descriptionfield {
   width: 150%;
 }
+
 /*This section is the styling for slides*/
 
 .slide {

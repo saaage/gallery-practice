@@ -65,51 +65,49 @@
 
     </section>
 
-    <div class="newphoto">
-
-      <button class="showcase__addnewphoto"type="button" name="button">New Photo</button>
-
-      <div class="upload upload--hidden">
-        <form class="upload__form" name="uploadform" method="post">
-
-          <label for="title">Title:</label><br>
-          <input class="upload__form--field upload__form--titlefield" type="text" maxlength="30" name="title" required>
-          <!-- Title field is required and should accept a maximum of 30 characters -->
-
-          <br>
-
-          <label for="urlfile">URL:</label><br>
-          <input class="upload__form--urlfield" name="url" type="URL" value="http://" required>
-          <!-- Label field is required and should check if input is in url format -->
-
-          <br><br>
-
-          <label class="upload__form--description" for="description">Description: </label>
-
-          <br>
-
-          <textarea class="upload__form--descriptionfield" name="description" rows="8"></textarea>
-          <!-- Description field is optional and will accept a maximum of 140 characters -->
-
-          <br><br>
-
-          <button class="upload__form--submit" type="button" name="button">Add</button>
-
-        </form>
-      </div>
-    </div>
-
     <section class="showcase">
 
-      <br><br>
+      <div class="showcase__newphoto">
 
-      <label for="">Pictures: </label>
+        <button class="showcase__newphoto--button" type="button" name="button">New Photo</button>
 
-      <br><br>
+        <div class="upload upload--hidden">
+          <form class="upload__form" name="uploadform" method="post">
 
-      <a href="#"><img src="http://www.high-nature-value-farming.eu/img/bigteaser_liebana.jpg" class="showcase__photoswipe--initiator" alt=""></a>
+            <label for="title">Title:</label><br>
+            <input class="upload__form--field upload__form--titlefield" type="text" maxlength="30" name="title" required>
+            <!-- Title field is required and should accept a maximum of 30 characters -->
 
-      <!-- Root element of PhotoSwipe. Must have class pswp. -->
+            <br>
+
+            <label for="urlfile">URL:</label><br>
+            <input class="upload__form--urlfield" name="url" type="URL" value="http://" required>
+            <!-- Label field is required and should check if input is in url format -->
+
+            <br><br>
+
+            <label class="upload__form--description" for="description">Description: </label>
+
+            <br>
+
+            <textarea class="upload__form--descriptionfield" name="description" rows="8"></textarea>
+            <!-- Description field is optional and will accept a maximum of 140 characters -->
+
+            <br><br>
+
+            <button class="upload__form--submit" type="button" name="button">Add</button>
+
+          </form>
+        </div>
+      </div>
+
+      <div class="photoswipe">
+
+        <label class="showcase__label--pictures" for="">Pictures: </label>
+
+        <img src="http://www.high-nature-value-farming.eu/img/bigteaser_liebana.jpg" class="showcase__photoswipe--initiator" alt="">
+
+        <!-- Root element of PhotoSwipe. Must have class pswp. -->
         <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
         <!-- Background of PhotoSwipe.
@@ -174,7 +172,8 @@
 
         </div>
 
-        </div>
+      </div>
+    </div>
     </section>
 
   </body>
