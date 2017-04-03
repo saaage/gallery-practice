@@ -160,3 +160,9 @@
   position: absolute;
   bottom: 0px;
 }
+
+/*thumbnail styling*/
+.showcase__photoswipe--initiator {
+  height: 25%;
+  width: 25%;
+}
