@@ -1,5 +1,5 @@
-let PhotoGallery = require('../lib/photogallery');
 let AddPhoto = require('../lib/addphoto')
+let Photos = require('../lib/photos');
 
 let testObject = {
   description: 'This is a test object :)'
@@ -18,7 +18,7 @@ describe("Add Photos should", ()=> {
 
   // evaluate the last index of PhotoGallery.items, it should be our testObject
   it("push an object into items array", function() {
-    expect(PhotoGallery.items[PhotoGallery.items.length-1]).toBe(testObject);
+    expect(Photos.photos[Photos.photos.length-1]).toBe(testObject);
   });
 
 })
