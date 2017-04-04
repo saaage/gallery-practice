@@ -22,8 +22,6 @@
   width: 275px;
 }
 
-.search__label {}
-
 .userinfo__name,.userinfo__webpage,.userinfo__address {
   text-align: center;
   display: block;
@@ -49,29 +47,26 @@
   text-align: center;
 }
 
+/*newphoto div*/
+.newphoto {
+  position: fixed;
+  height: 450px;
+  width: 450px;
+}
+
 /*showcase styles*/
 
 .showcase {
-  position: static;
+  /*display: inline-block;*/
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  /*transform: translate(0%, 0%);*/
 }
 
-.showcase__button--photoswipe {
-  background-color: blue;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
+.showcase__launch {
   display: inline-block;
-  font-size: 10px;
-}
-
-.showcase__addnewphoto {
-  display: block;
+  height: 50%;
+  width: 50%;
 }
 
 .header__bkg {
@@ -80,13 +75,6 @@
 }
 
 /*Section for changing Add File styles*/
-
-.newphoto {
-  height: 450px;
-  width: 450px;
-  /*border: 1px solid;*/
-  position: fixed;
-}
 
 .upload--hidden {
   display: none;
@@ -112,8 +100,9 @@
 
 
 .upload__form--descriptionfield {
-  width: 150%;
+  width: 100%;
 }
+
 /*This section is the styling for slides*/
 
 .slide {
@@ -165,4 +154,10 @@
 .showcase__photoswipe--initiator {
   height: 25%;
   width: 25%;
+}
+
+.showcase__photoswipe--thumbs {
+  height: 100px;
+  width: 100px;
+  margin-right: 5px;
 }
